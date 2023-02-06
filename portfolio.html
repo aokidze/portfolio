@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsen Sarkisyan</title>
+    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0" name="viewport">
+    <meta content="Ars Arsen Sarkisyan frontend developer" name="description">
+    <meta content="Ars, Arsen Sarkisyan" name="keywords">
+    <meta content="Arsen Sarkisyan" name="Author">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="192x192" href="/icon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="manifest" href="/icon/site.webmanifest">
+    <link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<div>
+    <canvas id="Matrix"></canvas>
+    <script src="./port.js"></script>
+</div>
+
+<body>
+
+
+
+    <header>
+        <!-- ------МЕНЮ МОЕГО САЙТА!!!!!----------------------------------------------------------------------------------------------------------------------------------------- -->
+        <div class="top-menu right">
+            <a href="#">
+                <img src="/Full img/ARS.png" alt="ARS" class="header-logo">
+            </a>
+            <ul class=" menu-main right__list superfade">
+                <li><a class="nav fade1" href="#about">About</a></li>
+                <li><a class="nav fade4" href="#Work">Work</a></li>
+                <li><a class="nav fade3" href="#contact">Contact</a></li>
+            </ul>
+
+
+        </div>
+
+        <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    </header>
+
+
+
+    <div class="bar__list bar barfade">
+        <a data-hover="true" class="bar__email" href="mailto:arsensarkisyan82@gmail.com">arsensarkisyan82@gmail.com</a>
+        <a data-hover="true" href="https://github.com/aokidze" class="bar__item" target="_blank" rel="noreferrer"><svg
+                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                <title>GitHub</title>
+                <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+            </svg></a>
+    </div>
+
+
+
+    <div class="PlayerFull playerfade">
+        <div class="playerWrapper__list playerfade">
+            <div class="player">
+                <div id="control-panel" class="control-panel false"><img data-hover="true" id="play" class="play"
+                        src="/Full img/play.png" alt="play-pause"></div>
+
+                <a data-hover="true" class="playerWrapper__musicLink" target="_blank"
+                    href="https://music.youtube.com/watch?v=0Mi-PG3uR1Q&amp;list=RDAMVM0Mi-PG3uR1Q"
+                    rel="noreferrer">Cowbell
+                    City &gt; ROMANE</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pages superfade">
+
+
+        <div id="hello" class="mainPage__hello hello superfade">
+
+
+            <li>
+                <div class="hello_title-1 fade1 fadein">Hi, my name is</div>
+            </li>
+            <li>
+                <div class="hello_title-2 fade2 fadein">Arsen Sarkisyan</div>
+            </li>
+            <li>
+                <div class="hello_title-3 fade3">I build things for <br>the web.</br></div>
+            </li>
+            <li>
+                <div class="hello_title-4 fade4">I am currently looking for new opportunities<br>to use my skills and
+                    experience to create meaningful and
+                    effective web applications. With my in-depth knowledge of web development, I am confident that I can
+                    make a
+                    valuable contribution to any project.</br></div>
+            </li>
+
+            <li>
+                <div class="hello__button ">
+                    <a data-hover="true" href="https://github.com/aokidze" class="button undefined"
+                        rel="noreferrer">Check
+                        out my GitHub! </a>
+                </div>
+            </li>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="line superfade">
+            <div class="bar__line1"></div>
+            <div class="bar__line2"></div>
+        </div>
+
+        <div id="about" class="mainPage__about about">
+            <div class="about__left">
+                <div class="numbered-heading">
+                    <div class="numbered-heading__number">01.</div>
+                    <div class="numbered-heading__text">About Me</div>
+                </div>
+                <p>Hello! My name is Arsen and I'm a JavaScript TypeScript web developer who loves creating products and
+                    services on the internet. Recently, I’ve been putting my skills to work to develop innovative web
+                    applications using JavaScript and TypeScript frameworks like:</p>
+
+                <div class="about__skills skills">
+                    <div class="skills__item">JavaScript</div>
+                    <div class="skills__item">Python</div>
+                    <div class="skills__item">TypeScript</div>
+                    <div class="skills__item">React</div>
+                    <div class="skills__item">Node.js</div>
+                    <div class="skills__item">Styled components</div>
+                    <div class="skills__item">Redux</div>
+                    <div class="skills__item">Sass</div>
+                    <div class="skills__item">Storybook</div>
+                    <div class="skills__item">MobX</div>
+
+                </div>
+            </div>
+            <div class="about__right"><a data-hover="true" target="_blank" rel="noreferrer">
+                    <div class="about__wrapper">
+                        <div class="about__imageWrapper">
+                            <div class="about__imageBlocker">
+                                <video loop muted autoplay class="about__Arsen" src="/Full img/animation.gif.mp4"
+                                    alt="Arsen"></video>
+                            </div>
+                        </div>
+                    </div>
+                </a></div>
+        </div>
+        <!-- ====================Work============================================================================================================ -->
+        <div id="Work" class="projects__project">
+            <div class="work__left">
+                <div class="numbered-heading_2">
+                    <div class="numbered-heading__number_2">02.</div>
+                    <div class="numbered-heading__text_2">Some of the sites I created </div>
+                </div>
+                <div class="projects__projects project">
+                    <div class="project__left">
+                        <div class="uptitle">Project</div>
+                        <div class="title"> Login and registration form</div>
+                        <div class="project__text">Site for the login and registration form. It looks easy and
+                            elegant.
+                        </div>
+                        <div class="project__links links">
+                            <a data-hover="true" target="_blank"
+                                href="https://github.com/aokidze/registration-/tree/main/registr" class="links__github"
+                                rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather ">
+                                    <title>GitHub</title>
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg></a>
+                            <a data-hover="true" target="_blank"
+                                href="https://aokidze.github.io/registration-/registr/work.html" class="links__deploy"
+                                rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-external-link">
+                                    <title>External Link</title>
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project__right right">
+                <div class="right__wrapper">
+                    <div class="right__imageWrapper">
+                        <a href="https://aokidze.github.io/registration-/registr/work.html" target="_blank"
+                            class="right__imageBlocker">
+                            <img class="registr " src="/Full img/regitr.jpg" alt="">
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- =============2======================================================================= -->
+        <div id="projects" class="projects__project ">
+            <div class="project__left__2">
+                <div class="project__uptitle">Project</div>
+                <div class="project__title">card animations</div>
+                <div class="project__text__2">animation for the cards, which shows the text and gives the picture a
+                    bright color. </div>
+                <div class="project__links links"><a data-hover="true" target="_blank"
+                        href="https://github.com/aokidze/sections" class="links__github" rel="noreferrer"><svg
+                            xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather">
+                            <title>GitHub</title>
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg></a><a data-hover="true" target="_blank"
+                        href="https://aokidze.github.io/sections/sections/work.html" class="links__deploy_2"
+                        rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-external-link">
+                            <title>External Link</title>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg></a></div>
+            </div>
+            <div class="project__right__2 right">
+                <div>
+                    <div class="right__wrapper">
+                        <a href="https://aokidze.github.io/sections/sections/work.html" target="_blank"
+                            class="right__imageWrapper"> <video class="sections" loop muted autoplay
+                                src="/Full img/Sections.mp4"></video>
+                            <div class="right__hidden"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======================3======================================================================================= -->
+
+        <div id="projects" class="projects__project ">
+            <div class="project__left__3">
+                <div class="project__uptitle">Project</div>
+                <div class="project__title">Animated loader</div>
+                <div class="project__text__3">Animated loader with a multicolored gradient. It has a smooth
+                    transition
+                    of colors, which makes it look spectacular. </div>
+                <div class="project__links links"><a data-hover="true" target="_blank"
+                        href="https://github.com/aokidze/animation/tree/main/Loader" class="links__github"
+                        rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather ">
+                            <title>GitHub</title>
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg></a><a data-hover="true" target="_blank"
+                        href="https://aokidze.github.io/sections/sections/work.html" class="links__deploy_3"
+                        rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-external-link">
+                            <title>External Link</title>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg></a></div>
+            </div>
+            <div class="project__right__3 right">
+                <div>
+                    <div class="right__wrapper">
+                        <a href="https://aokidze.github.io/animation/Loader/index.html" target="_blank"
+                            class="right__imageWrapper">
+                            <img src="/Full img/Neon.jpg" alt="Neon" class="sections">
+                            <div class="right__hidden"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================4======================================================================== -->
+        <div id="projects" class="projects__project ">
+            <div class="project__left__2">
+                <div class="project__uptitle">Project</div>
+                <div class="project__title">Illumination for icons</div>
+                <div class="project__text__2">Icons highlighting. With this tool, icons of known applications are
+                    highlighted and change their color continuously. </div>
+                <div class="project__links links"><a data-hover="true" target="_blank"
+                        href="https://github.com/aokidze/animation/tree/main/Icon" class="links__github"
+                        rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather">
+                            <title>GitHub</title>
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg></a><a data-hover="true" target="_blank"
+                        href="https://aokidze.github.io/animation/Icon/index.html" class="links__deploy_2"
+                        rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-external-link">
+                            <title>External Link</title>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg></a></div>
+            </div>
+            <div class="project__right__2 right">
+                <div>
+                    <div class="right__wrapper">
+                        <a href="https://aokidze.github.io/animation/Icon/index.html" target="_blank"
+                            class="right__imageWrapper"> <video class="sections" loop muted autoplay
+                                src="/Full img/Icon.mp4"></video>
+                            <div class="right__hidden"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ==================Contact======================================================================================================= -->
+        <div id="contact" class="contact_pages contact">
+            <div class="numbered-heading_4">
+                <div class="numbered-heading__number_2">03.</div>
+                <div class="numbered-heading__text_2">How to contact me? </div>
+            </div>
+            <div class="contact__title">Contact me - I'm looking for new opportunities</div>
+            <div class="contact__text">Do you want to take your career to the next level? Contact me today! I'm
+                always
+                on the lookout for new opportunities, and I'm open to hearing about what you have to offer. Whether
+                it's
+                a job opportunity or just advice, I'm here to listen and help in any way I can. So feel free to
+                reach
+                out and let me know what you need - I'm happy to hear from you!</div>
+
+            <div class="contact__buttons">
+                <a data-hover="true" href="mailto:arsensarkisyan82@gmail.com" target="_blank"
+                    class="button contactButton" rel="noreferrer">Gmail</a>
+                <a data-hover="true" href="https://github.com/aokidze" target="_blank" class="button contactButton"
+                    rel="noreferrer">GitHub</a>
+                <a data-hover="true" href="https://t.me/aokidzwe" target="_blank" class="button contactButton"
+                    rel="noreferrer">Telegram</a>
+            </div>
+
+
+
+
+            <footer class="footer">
+                <div class="footer__container"><a data-hover="true" href="https://github.com/aokidze" target="_blank"
+                        class="footer__link" rel="noreferrer">
+                        <div class="footer__title">Made by &lt; Arsen Sarkisyan /&gt;</div>
+                    </a></div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
